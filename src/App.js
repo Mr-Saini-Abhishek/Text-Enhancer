@@ -4,9 +4,9 @@ import Navbar from "./Components/Navbar";
 import TextForm from "./Components/TextForm";
 import Footer from './Components/Footer';
 
-import AboutUs from './Components/AboutUs';
+// import AboutUs from './Components/AboutUs';
 import Alert from './Components/Alert';
-import { BrowserRouter,Route, Routes } from 'react-router-dom';
+// import { BrowserRouter,Route, Routes } from 'react-router-dom';
 
 
 
@@ -44,18 +44,19 @@ function App() {
 
   return (
     <>
-<BrowserRouter>
+{/* <BrowserRouter> */}
 
 
       <Navbar mode={mode} toogleMode={toogleMode} />
       <Alert alert={alert} />
-      <Routes>
-<Route path='/' element={<TextForm mode={mode} showAlert={showAlert} />}/>
-<Route path='/about' element={<AboutUs mode={mode} />}/>
+      {/* <Routes> */}
+{/* <Route path='/' element={<TextForm mode={mode} showAlert={showAlert} />}/> */}
+<TextForm/>
+{/* <Route path='/about' element={<AboutUs mode={mode} />}/> */}
     
-      </Routes>
+      {/* </Routes> */}
   <Footer />
-</BrowserRouter>
+{/* </BrowserRouter> */}
 
 
 
