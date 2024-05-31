@@ -9,7 +9,7 @@ export default function TextForm(props) {
   const handleLoClick = () => {
     let newText = text.toLowerCase();
     setText(newText)
-    props.showAlert("Converted to LOWERCASE", "success")
+    props.showAlert("Converted to lowercase", "success")
   };
   const handleCpyText = () => {
     let newText = document.getElementById('input');
