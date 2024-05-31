@@ -1,0 +1,88 @@
+body {
+
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-image: url("https://wallpapercave.com/dwp1x/wp9081316.jpg");
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.input {
+  margin: -4rem auto;
+  margin-bottom: 2rem;
+}
+
+#input {
+  border: 5px solid black;
+  width: 100%;
+  margin: 0rem auto;
+  padding: 1rem;
+  font-size: 1.5rem;
+
+}
+
+#convert {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1.2rem;
+}
+
+.conv {
+  font-size: 3rem;
+  margin-top: 2rem;
+}
+
+.det {
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+
+.accordion {
+  width: 70%;
+  margin: 2rem auto;
+}
+
+.navbar {
+  background-color: black;
+}
+
+.footer {
+  width: 100%;
+  height: 2rem;
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: 1.3rem;
+
+
+
+}
+
+.abt {
+  font-size: 3.3rem;
+}
+
+.container {
+  flex: 1;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+
+}
+
+.footer {
+  margin-top: auto;
+}
